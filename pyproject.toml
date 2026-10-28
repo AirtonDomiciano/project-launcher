@@ -1,0 +1,13 @@
+[project]
+name = "moah-project-launcher"
+version = "0.1.0"
+description = "Launcher local para encontrar projetos e abri-los no Cursor"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["PyQt6>=6.8"]
+
+[project.scripts]
+moah-project-launcher = "moah_launcher.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["moah_launcher*"]

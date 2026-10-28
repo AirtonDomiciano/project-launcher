@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=MOAH Project Launcher
+GenericName=Launcher de projetos
+Comment=Encontra projetos locais e abre no Cursor
+Exec=moah-project-launcher
+Icon=system-file-manager
+Terminal=false
+Categories=Development;
+Keywords=cursor;projetos;moah;launcher;
+StartupNotify=true
